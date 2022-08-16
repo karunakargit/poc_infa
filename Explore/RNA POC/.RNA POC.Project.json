@@ -1,0 +1,22 @@
+{
+  "objectInfo" : {
+    "id" : "4H8lEZgGAf4hltp4vRRCwI",
+    "name" : "RNA POC",
+    "type" : "Project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Reporting & Analytics POC",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "objectRefs" : [ ]
+}
