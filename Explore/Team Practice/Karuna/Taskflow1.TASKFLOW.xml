@@ -1,0 +1,62 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>KtBOAPbdutaaabb-gt-1926517-2022-07-29T11:42:49.59Z::tf.xml</types1:EntryId>
+      <types1:Name>Taskflow1-1</types1:Name>
+      <types1:MimeType>application/xml+taskflow</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>KKadapana@dstworldwideservices.com</types1:CreatedBy>
+      <types1:CreationDate>2022-07-29T11:42:50Z</types1:CreationDate>
+      <types1:ModifiedBy/>
+      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <taskflow xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                   xmlns:tfm="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"
+                   xmlns:list="urn:activevos:spi:list:functions"
+                   displayName="Taskflow1"
+                   name="Taskflow1-1"
+                   overrideAPIName="false">
+            <parameterSet xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"/>
+            <appliesTo/>
+            <description/>
+            <tags/>
+            <generator>Informatica Process Designer 11</generator>
+            <notes/>
+            <deployment suspendOnFault="false" tracingLevel="verbose">
+               <rest/>
+            </deployment>
+            <flow id="a">
+               <start id="b">
+                  <link id="j3wfjy2l" targetId="j3wfjy2k"/>
+               </start>
+               <service id="j3wfjy2k">
+                  <title>Data Task 1</title>
+                  <serviceName>ICSExecuteDataTask</serviceName>
+                  <serviceGUID/>
+                  <serviceInput/>
+                  <serviceOutput/>
+                  <link id="j3wfjy2t" targetId="j3wfjy2s"/>
+               </service>
+               <service id="j3wfjy2s">
+                  <title>Data Task 2</title>
+                  <serviceName>ICSExecuteDataTask</serviceName>
+                  <serviceGUID/>
+                  <serviceInput/>
+                  <serviceOutput/>
+                  <link id="j3wfjy2u" targetId="c"/>
+               </service>
+               <end id="c"/>
+            </flow>
+         </taskflow>
+      </types1:Entry>
+      <types1:GUID>9fWTcUFqWNcdJrOmMc0ds3</types1:GUID>
+      <types1:DisplayName>Taskflow1</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2022-08-23T07:37:30.639Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>
